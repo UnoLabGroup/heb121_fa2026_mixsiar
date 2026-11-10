@@ -4,6 +4,10 @@ library(MixSIAR)
 library(ggplot2)
 
 
+# Set working directory
+# Change to where your files are located
+setwd("C:/Users/kul362/GitHub/heb121_fa2026_mixsiar")
+
 ### Load input data files ###
 # Load mixture data
 mix <- load_mix_data(
